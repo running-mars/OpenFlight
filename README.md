@@ -22,7 +22,8 @@
 - **mpi4py** is used for multiple processes running together.
 - **ZMQ** is used somewhere for communication between different processes or threadings.
 - **Unreal Engine 5.2** can also be used, as shown in [Colosseum](https://github.com/CodexLabsLLC/Colosseum/).
-
+### 3. Others
+- AirSim and UE are unnecessary if real-time visualization is not required.
 
 ## Installation
 
@@ -45,12 +46,17 @@ pip install msgpack-rpc-python
 pip install opencv-python opencv-contrib-python
 pip install airsim
 ```
-- install pytorch if you need.
+- install pytorch according to [https://pytorch.org/](https://pytorch.org/).
 - clone and build Unreal Engine refer to AirSim/Colosseum
 - clone and build AirSim/Colosseum (please note the version)
 - configure the UE project and the AirSim Plugin.
 
 ## How To Use
+Two different learning methods: velocity-level (v1) and low-level (v2).
+```python
+register(id="jsbsim-uni-uav-sample-v1", entry_point="airgym.envs:JSBSim3DUniUAVEnv",)     
+register(id="jsbsim-uni-uav-sample-v2", entry_point="airgym.envs:JSBSim3DLLCUniUAVEnv",)   
+```
 
 Run the training script using Pycharm or command line:
 ```bash
