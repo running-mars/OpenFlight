@@ -1,9 +1,6 @@
 """
 Description:
     - Design a network (common part of Actor and Critic) for feature extraction
-
-Authors:
-    - Running-Mars
 """
 
 import torch.nn as nn

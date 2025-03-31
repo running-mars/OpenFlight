@@ -1,6 +1,6 @@
 """
 Description:
-    -
+    - Velocity-level control for Fixed-wing UAVs towards minimum-time flight
 
 Authors:
     - Running-Mars

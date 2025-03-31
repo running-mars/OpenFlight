@@ -1,13 +1,10 @@
 """
-Descriptions:
-    - Test the model trained using nav_p2p_train.
-    - Navigation from point-to-point, using delta_yaw to the goal
-
-Notes:
-    - The flight has no real-time rendering (Without UE and AirSim)
+Description:
+    - Velocity-level control for Fixed-wing UAVs towards minimum-time flight
+    - Validate the performance
 
 Authors:
-    - Running Mars
+    - Running-Mars
 """
 
 import numpy as np
