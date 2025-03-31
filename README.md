@@ -1,5 +1,5 @@
 
-<h1 align="center">OpenRL-Fixedwing</h1>
+<h1 align="center">OpenFlight</h1>
 
 
 <h4 align="center">Less is more.</h4>
@@ -35,9 +35,9 @@ activate it:
 ```bash
 conda activate sim
 ```
-- install JSBSim via pip 
+- install JSBSim and SB3 via pip 
 ```bash
-pip install jsbsim
+pip install jsbsim, stable-baselines3
 ```
 - install AirSim via pip (version 1.8.1)
 ```bash
