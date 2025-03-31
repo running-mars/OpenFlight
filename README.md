@@ -7,6 +7,7 @@
 <p align="center">
   <a href="#brief-introduction">Brief Introduction</a> •
   <a href="#installation">Installation</a> •
+  <a href="#how-to-use">How To Use</a> •
   <a href="#license">License</a> •
   <a href="#acknowledgement">Acknowledgement</a>
 </p>
