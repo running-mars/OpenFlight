@@ -1,6 +1,6 @@
 """
 Description:
-    - Low-level control for Fixed-wing UAVs towards minimum-time flight
+    - Actuator-level control for Fixed-wing UAVs towards minimum-time flight
     - Validate the performance with multiple targets
 
 Authors:

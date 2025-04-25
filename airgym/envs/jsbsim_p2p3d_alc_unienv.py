@@ -22,7 +22,7 @@ import gym
 from gym import spaces
 
 
-class JSBSim3DLLCUniUAVEnv(gym.Env):
+class JSBSim3DALCUniUAVEnv(gym.Env):
     metadata = {"render.modes": ["rgb_array"]}
 
     def __init__(self):

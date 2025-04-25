@@ -52,10 +52,10 @@ pip install airsim
 - configure the UE project and the AirSim Plugin.
 
 ## How To Use
-Two different learning methods: velocity-level (v1) and low-level (v2).
+Two different learning methods: velocity-level (v1) and actuator-level (v2).
 ```python
 register(id="jsbsim-uni-uav-sample-v1", entry_point="airgym.envs:JSBSim3DUniUAVEnv",)     
-register(id="jsbsim-uni-uav-sample-v2", entry_point="airgym.envs:JSBSim3DLLCUniUAVEnv",)   
+register(id="jsbsim-uni-uav-sample-v2", entry_point="airgym.envs:JSBSim3DALCUniUAVEnv",)   
 ```
 
 Run the training script using Pycharm or command line:
@@ -83,12 +83,12 @@ This open-source project has referenced and drawn inspiration from many other op
 For the purpose of organizing the code structure and making it clearer, we did not directly fork these repositories, but instead, organized, improved, and added new features in a new repository. 
 The code in the repository is not entirely written by us. We extend our respect and gratitude to the developers of the following open-source projects and release this project as open-source.
 
-1. [Fixedwing-Airsim](https://github.com/AOS55/Fixedwing-Airsim)
+1. [Quessy, Alexander, Fixedwing-Airsim](https://github.com/AOS55/Fixedwing-Airsim)
 
-2. [gym-jsbsim](https://github.com/Gor-Ren/gym-jsbsim)
+2. [Gordon Rennie, gym-jsbsim](https://github.com/Gor-Ren/gym-jsbsim)
 
-3. [AirSim](https://github.com/microsoft/AirSim)
+3. [Miocrosoft, AirSim](https://github.com/microsoft/AirSim)
 
-4. [Colosseum](https://github.com/CodexLabsLLC/Colosseum)
+4. [Codex Laboratories LLC, Colosseum](https://github.com/CodexLabsLLC/Colosseum)
 
-5. [dwa](https://github.com/estshorter/dwa)
+5. [estshorter, dwa](https://github.com/estshorter/dwa)
