@@ -1,2 +1,3 @@
 from airgym.envs.jsbsim_p2p3d_unienv import JSBSim3DUniUAVEnv
 from airgym.envs.jsbsim_p2p3d_alc_unienv import JSBSim3DALCUniUAVEnv
+from airgym.envs.jsbsim_p2p3d_attitude_unienv import JSBSim3DAttitudeUniUAVEnv
