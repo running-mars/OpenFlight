@@ -14,6 +14,11 @@
 
 ## Brief Introduction
 
+- This open-source repository tackles the minimum-time flight problem of fixed-wing UAVs, 
+  exploring control methods at the velocity, actuator, and attitude levels through reinforcement learning. 
+  The related papers are currently under submission. The fixed-wing UAV model used is the Skywalker X8, 
+  with dynamics simulations carried out using JSBSim and rendering performed with Unreal Engine.
+
 ### 1. Key components:
 - Rendering Engine: **Unreal Engine 4**
 - Dynamics: **JSBSim** (using Skywalker X8 model)
@@ -52,10 +57,11 @@ pip install airsim
 - configure the UE project and the AirSim Plugin.
 
 ## How To Use
-Two different learning methods: velocity-level (v1) and actuator-level (v2).
+Three different learning methods: velocity-level (v1), actuator-level (v2), and attitude-level (v3).
 ```python
 register(id="jsbsim-uni-uav-sample-v1", entry_point="airgym.envs:JSBSim3DUniUAVEnv",)     
 register(id="jsbsim-uni-uav-sample-v2", entry_point="airgym.envs:JSBSim3DALCUniUAVEnv",)   
+register(id="jsbsim-uni-uav-sample-v3", entry_point="airgym.envs:JSBSim3DAttitudeUniUAVEnv",)
 ```
 
 Run the training script using Pycharm or command line:
