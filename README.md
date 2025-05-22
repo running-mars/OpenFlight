@@ -14,7 +14,7 @@
 
 ## Brief Introduction
 
-- This open-source repository tackles the minimum-time flight problem of fixed-wing UAVs, 
+> This open-source repository tackles the minimum-time flight problem of fixed-wing UAVs, 
   exploring control methods at the velocity, actuator, and attitude levels through reinforcement learning. 
   The related papers are currently under submission. The fixed-wing UAV model used is the Skywalker X8, 
   with dynamics simulations carried out using JSBSim and rendering performed with Unreal Engine.
